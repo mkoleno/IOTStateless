@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  iotstatelessexample:
+    image: ${DOCKER_REGISTRY-}iotstatelessexample
+    build:
+      context: .\IOTStatelessExample
+      dockerfile: Dockerfile
